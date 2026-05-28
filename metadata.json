@@ -1,0 +1,6 @@
+{
+  "name": "TezYoz",
+  "description": "Tez yozish tezligi va aniqligini tekshirish, do'stlar bilan natijalar ulashish va peshqadamlar jadvali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

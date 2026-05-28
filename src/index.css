@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Comic+Neue:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,455;0,600;1,460&family=Fira+Code:wght@400;600&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700;900&family=Oswald:wght@400;700&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@400;600;700&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+/* 15 custom font classes mapped for selection */
+.font-inter { font-family: 'Inter', sans-serif; }
+.font-space { font-family: 'Space Grotesk', sans-serif; }
+.font-jetbrains { font-family: 'JetBrains Mono', monospace; }
+.font-comic { font-family: 'Comic Neue', sans-serif; }
+.font-playfair { font-family: 'Playfair Display', serif; }
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-caveat { font-family: 'Caveat', cursive; }
+.font-ubuntu { font-family: 'Ubuntu', sans-serif; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+.font-lora { font-family: 'Lora', serif; }
+.font-fira { font-family: 'Fira Code', monospace; }
+.font-oswald { font-family: 'Oswald', sans-serif; }
+.font-merriweather { font-family: 'Merriweather', serif; }
+.font-pacifico { font-family: 'Pacifico', cursive; }
+.font-cormorant { font-family: 'Cormorant Garamond', serif; }
+
+/* Custom light/sepia color vars override for body transitions */
+.sepia-theme {
+  --background: #f4ecd8;
+  background-color: #f4ecd8 !important;
+}
+
+/* Custom fade animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
